@@ -4,12 +4,12 @@ Projeto desenvolvido durante um evento da Rocketseat para demonstrar o uso de ag
 
 ## 🚀 Tecnologias
 
-- **React 19.1** - Biblioteca para interfaces de usuário
-- **TypeScript 5.8** - Superset JavaScript com tipagem estática
-- **Vite 7.0** - Build tool e servidor de desenvolvimento
-- **TailwindCSS 4.1** - Framework CSS utility-first
-- **React Router Dom 7.6** - Biblioteca de roteamento
-- **TanStack React Query 5.8** - Gerenciamento de estado servidor e cache
+- **React** - Biblioteca para interfaces de usuário
+- **TypeScript** - Superset JavaScript com tipagem estática
+- **Vite** - Build tool e servidor de desenvolvimento
+- **TailwindCSS** - Framework CSS utility-first
+- **React Router Dom** - Biblioteca de roteamento
+- **TanStack React Query** - Gerenciamento de estado servidor e cache
 - **Radix UI** - Componentes primitivos acessíveis
 - **Shadcn/ui** - Sistema de componentes
 - **Lucide React** - Biblioteca de ícones
@@ -19,9 +19,6 @@ Projeto desenvolvido durante um evento da Rocketseat para demonstrar o uso de ag
 - **Component-based Architecture** - Arquitetura baseada em componentes React
 - **File-based Routing** - Roteamento baseado em arquivos com React Router
 - **Server State Management** - Gerenciamento de estado servidor com React Query
-- **Variant-based Components** - Componentes com variantes usando CVA
-- **Composition Pattern** - Padrão de composição com Radix Slot
-- **Path Aliasing** - Alias de caminhos (`@/` aponta para `src/`)
 
 ## ⚙️ Configuração do Projeto
 
@@ -55,13 +52,14 @@ Projeto desenvolvido durante um evento da Rocketseat para demonstrar o uso de ag
 
 ### Backend
 
-O projeto consome uma API que deve estar rodando na porta 3333. Certifique-se de que o backend esteja configurado e executando antes de iniciar o frontend.
+O projeto consome uma API que deve estar rodando na porta 3333. Certifique-se de que o [backend](https://github.com/CamilaDB/nlw-agents-server) esteja configurado e executando antes de iniciar o frontend.
 
 ## 🛠️ Estrutura do Projeto
 
 ```
 src/
-├── components/ui/    # Componentes de interface
+├── components/ui/   # Componentes de interface
+├── http/            # Hooks para consumo da API
 ├── pages/           # Páginas da aplicação
 ├── lib/             # Utilitários e configurações
 └── app.tsx          # Componente raiz
