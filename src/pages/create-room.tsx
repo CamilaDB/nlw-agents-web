@@ -1,4 +1,4 @@
-import { CreateRoomForm } from "@/components/crete-room-form";
+import { CreateRoomForm } from "@/components/create-room-form";
 import { RoomList } from "@/components/room-list";
 
 export function CreateRoom() {
